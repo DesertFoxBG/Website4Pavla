@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+.gal_but {
+	font-family: 'Permanent Marker', 'cursive';
+	font-size: 150%;
+	margin: 3px;
+	color: #f99e4e;
+}
+
+.gal_but:hover {
+	color: #89DFB8;
+}
+
+.pages {
+	background-color: #89DFB8;
+}
+
+.pages:hover {
+	background-color: #F7EB98;
+}
+
+.overlay_text {
+	margin-top: -80px;
+	font-size: 200%;
+	position: relative;
+	opacity: 0;
+	transition: .5s ease;
+	color: #F7EB98;
+	font-family: 'Permanent Marker', 'cursive';
+}
+
+.container:hover .overlay_text{
+	opacity: 1;
+}
+
+section {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 10rem;
+}
+
+span {
+	display: inline-block;
+}
+
+.carousel-title {
+	background: #89DFB8;
+	font: 6rem 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.35rem;
+	color: #F7EB98;
+	text-shadow: -4px 4px 0 #89DFB8, -6px 6px 0 rgba(255, 255, 255, 0.5);
+}
+
+.gallery-title {
+	background: #89DFB8;
+	font: 6rem 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.35rem;
+	color: #F7EB98;
+	text-shadow: -4px 4px 0 #89DFB8, -6px 6px 0 rgba(255, 255, 255, 0.5);
+}
+
+body {
+	background: url('https://www.beautycolorcode.com/dffaac-1280x1024.png') fixed;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+	border-radius: 5px;
+    float: left;
+    width: 180px;
+	transition: all .2s ease-in-out;
+}
+
+div.gallery:hover {
+    border: 2px solid #89DFB8;
+	border-radius: 5px;
+	transform: scale(1.3);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	border-radius: 5px;
+}
+
+.button{
+	background-image: -webkit-linear-gradient(top, #89DFB8, #89DFB8);
+	border-radius: 50%;
+	float:left;			
+	height: 70px;
+	margin: 0 30px 30px 0;
+	position: relative;
+	width: 70px;
+}
+		
+.heart {
+	margin-left: 150px;
+	margin-top: -540px;
+}
+		
+.heart-vid {
+	margin-left: 1700px;
+	margin-top: -240px;
+}
+		
+.flower {
+	margin-left: 1700px;
+	margin-top: -490px;
+}
+		
+.flower-vid {
+	margin-left: 150px;
+	margin-top: -240px;
+}
+		
+.arrow {
+	margin-left: 1700px;
+	margin-top: -540px;
+}
+		
+.arrow-home {
+	margin-left: 150px;
+	margin-top: -490px;
+}
+
+.button:after{
+	color:#e9e6e4;
+	content: "";
+	display: block;
+	font-size: 30px;
+	height: 30px;
+	text-decoration: none;
+	text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+	position: absolute;
+	width: 30px;
+}
+
+.heart:after{
+	content: "❤";
+	left: 20px;
+	top: 16px;
+}
+		
+.heart-vid:after{
+	content: "❤";
+	left: 20px;
+	top: 16px;
+}
+
+.flower:after{
+	content: "✿";
+	left: 20px;
+	top: 14px;
+}
+		
+.flower-vid:after{
+	content: "✿";
+	left: 20px;
+	top: 14px;
+}
+
+.arrow:after{
+	content: "►";
+	left:22px;
+	top:14px;
+}
+		
+.arrow-home:after{
+	content: "►";
+	left:22px;
+	top:14px;
+}
+
+.button:hover{
+	background-image: -webkit-linear-gradient(top, #dffaac, #F7EB98);
+	background-image: linear-gradient(top, #dffaac, #F7EB98);
+	color:#dffaac;
+}
+
+.heart:hover:after{
+	color:#f94e66;
+}
+		
+.heart-vid:hover:after{
+	color:#f94e66;
+}
+
+.flower:hover:after{
+	color:#f99e4e;
+}
+		
+.flower-vid:hover:after{
+	color:#f99e4e;
+}
+
+.arrow:hover:after{
+	color:#83d244;
+}
+		
+.arrow-home:hover:after{
+	color:#83d244;
+}
+
+.button:active{
+	background-image: -webkit-linear-gradient(top, #F7EB98, #F7EB98);
+	background-image: linear-gradient(top, #F7EB98, #F7EB98);
+}
+
+.button:active:after{
+	color:#F7EB98;
+}
