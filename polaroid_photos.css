@@ -1,0 +1,27 @@
+.polaroid 
+{ 
+position: relative;
+text-align: center; 
+} 
+
+.polaroid img 
+{ 
+width: 500px;
+height: auto;
+border: 10px solid #fff; 
+border-bottom: 45px solid #fff; 
+-webkit-box-shadow: 0px 0px 10px #777; 
+-moz-box-shadow: 0px 0px 10px #777; 
+box-shadow: 0px 0px 10px #777;
+} 
+
+.polaroid p 
+{ 
+position: absolute; 
+text-align: center; 
+width: 100%; 
+bottom: 0px; 
+font: 400 18px/1 'Kaushan Script', cursive; 
+color: #888;
+z-index:99;
+}
